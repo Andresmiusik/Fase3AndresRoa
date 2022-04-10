@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Fase3AndresRoa
 {
-    public partial class Form1 : Form
+    public partial class Cola : Form
     {
-        public Form1()
+        public Cola()
         {
             InitializeComponent();
         }
-
     }
 }
