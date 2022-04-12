@@ -29,6 +29,7 @@ namespace Fase3AndresRoa
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_menu));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_pila = new System.Windows.Forms.Button();
@@ -40,6 +41,7 @@ namespace Fase3AndresRoa
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(113, 9);
             this.label1.Name = "label1";
@@ -50,6 +52,7 @@ namespace Fase3AndresRoa
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(122, 57);
             this.label2.Name = "label2";
@@ -101,6 +104,7 @@ namespace Fase3AndresRoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Fase3AndresRoa.Properties.Resources.Degradado_menu;
             this.ClientSize = new System.Drawing.Size(406, 287);
             this.Controls.Add(this.btn_salir);
             this.Controls.Add(this.btn_lista);
@@ -108,6 +112,9 @@ namespace Fase3AndresRoa
             this.Controls.Add(this.btn_pila);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(422, 326);
+            this.MinimumSize = new System.Drawing.Size(422, 326);
             this.Name = "frm_menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
